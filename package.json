@@ -1,0 +1,32 @@
+{
+  "name": "jstexteditactionstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemashushu/jstexteditactionstack.git"
+  },
+  "keywords": [
+    "text",
+    "editor"
+  ],
+  "author": "Hippo Spark <hippospark@gmail.com> (https://twitter.com/hemashushu)",
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/hemashushu/jstexteditactionstack/issues"
+  },
+  "homepage": "https://github.com/hemashushu/jstexteditactionstack#readme",
+  "devDependencies": {
+    "jsobjectutils": "github:hemashushu/jsobjectutils",
+    "jstextselection": "github:hemashushu/jstextselection",
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "jsevent": "github:hemashushu/jsevent",
+    "jstextdiffpatch": "github:hemashushu/jstextdiffpatch"
+  }
+}
